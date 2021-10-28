@@ -12,7 +12,7 @@ def FofaServerQuery(QueryType):
     QBASE64 = base64.b64encode(QueryType.encode('utf-8'))
     Femail = "" #这里填写fofa会员邮箱
     Fkey = "" # 这里填写fofa会员的key
-    url = f"https://fofa.so/api/v1/search/all?email={email}&key={Fkey}&qbase64={str(QBASE64,encoding='utf-8')}&size=200&full=True"
+    url = f"https://fofa.so/api/v1/search/all?email={Femail}&key={Fkey}&qbase64={str(QBASE64,encoding='utf-8')}&size=200&full=True"
     resp = requests.get(url=url)
     return resp.content.decode("utf-8")
 
