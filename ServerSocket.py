@@ -26,7 +26,7 @@ def RunLog(Query, addr):
 
 def main():
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    tcp_server_socket.bind(('', 7654))  # 填写绑定服务器接收socket端口
+    tcp_server_socket.bind(('', 7654))  # 填写绑定服务器接收socket端口,如7654
     tcp_server_socket.listen(128)  
     while True:
         try:
