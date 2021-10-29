@@ -20,7 +20,7 @@ def tcp_client_send(tcp_client_socket):
 
 
 def tcp_client_recv(tcp_client_socket):
-    recv_data = tcp_client_socket.recv(2048) 
+    recv_data = tcp_client_socket.recv(40960) 
     print(recv_data.decode('utf-8'))  
 
 
