@@ -1,6 +1,6 @@
 # FoFaApiServer
 
-# FoFaApiServer可以干什么？
+# FoFaApiServer可以干什么
 
 你只需要在客户端运行client.py脚本，就可以使用FOFA。
 
