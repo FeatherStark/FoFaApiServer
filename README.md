@@ -1,5 +1,4 @@
 # FoFaApiServer
-![image](https://user-images.githubusercontent.com/42148584/139363718-4728c759-0cb2-4f87-8e6c-01e524eb0b18.png)
 
 # FoFaApiServer可以干什么
 
@@ -26,6 +25,10 @@
 4.`Client.py` 填写服务器IP和服务器绑定的端口即可
 
 5.python3运行Client.py，开始使用
+
+# 运行效果
+
+![image](https://user-images.githubusercontent.com/42148584/139363718-4728c759-0cb2-4f87-8e6c-01e524eb0b18.png)
 
 # 免责声明：
 本程序仅用于日常编程学习，请使用者遵守《中华人民共和国网络安全法》，开发者与使用者在使用中产生的任何责任均与本作者无关。下载使用即代表使用者同意上述观点。
